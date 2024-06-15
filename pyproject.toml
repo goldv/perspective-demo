@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "perspective-demo"
+version = "0.1.0"
+description = ""
+authors = ["goldv <vincegolding75@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+perspective-python = "2.10.1"
+tornado = "6.4.1"
+pyarrow = "16.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
